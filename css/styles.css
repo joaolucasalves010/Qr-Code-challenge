@@ -67,7 +67,7 @@ section {
 /* Mobile */
 
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
     .container {
         margin-top: 80px;
     }
