@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Cor da página */
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    ;
+    padding-bottom: 150px;
+}
+
+/* Estilos inicias */
+
+p {
+    color: #444;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+h2 {
+    font-weight: 700px;
+}
+
+/* Container do Qr code */
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    text-align: center;
+    border: 1px solid #fff;
+    width: 250px;
+    background-color: #fff;
+    padding: 15px 15px;
+    border-radius: 15px;
+    max-width: 100%;
+    margin-top: 10%;
+}
+
+.container img {
+    height: 250px;
+    border-radius: 5px;
+}
+
+.container h2 {
+    color: #333;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.container p {
+    padding-bottom: 15px;
+}
+
+
+
+
+
+/* Mobile */
+
+
+@media (max-width: 375px) {
+    .container {
+        margin-top: 80px;
+    }
+
+}
+
+/* Desktop */
+@media (min-width: 1440px) {
+    .container p {
+        font-size: 25px;
+    }
+
+    .container h2 {
+        font-size: 27px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 350px;
+        padding: 20px 15px;
+    }
+
+    .container img {
+        max-height: 350px;
+        height: 100%;
+        border: 10px;
+    }
+}
